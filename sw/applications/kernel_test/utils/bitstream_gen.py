@@ -9,11 +9,11 @@
 # import sys
 import copy
 # from pickle import ADDITEMS
-
+import numpy as np
 # WALL = True        #Set to 'True' to get all warnings at run time
 
 # # Change to the file name you want to compile
-# FILE_NAME = "pseudo_assembly_dbl_max"
+FILE_NAME = "single_instr"
 
 SIZE_DEC_INSTR  = 5
 SIZE_EPFL_ASM   = 6

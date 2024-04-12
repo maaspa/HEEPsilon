@@ -17,7 +17,7 @@ EXTERNAL_DOMAINS = 1
 MEMORY_BANKS = 4
 
 # Project options are based on the app to be build (default - hello_world)
-PROJECT  ?= hello_world
+PROJECT  ?= kernel_test
 
 export HEEP_DIR = hw/vendor/esl_epfl_x_heep/
 include $(HEEP_DIR)Makefile.venv

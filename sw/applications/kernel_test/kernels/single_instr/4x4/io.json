@@ -1,0 +1,29 @@
+{
+    "function_name": "single_instr",
+    "inputs": [        {
+        "name": "in_ptr",
+        "depth": 1,
+        "type": "uint32_t"
+    }],
+    "outputs": [
+        {
+            "name": "ret",
+            "depth": 1,
+            "type": "uint32_t"
+        }
+    ],
+    "read_col0" : [{
+        "name": "in_ptr"
+    }] ,
+    "read_col1" : [] ,
+    "read_col2" : [] ,
+    "read_col3" : [] ,
+    "write_col0": [],
+    "write_col1": [
+        {
+            "name": "ret"
+        }
+    ],
+    "write_col2" : [] ,
+    "write_col3" : []
+}
