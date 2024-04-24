@@ -6,7 +6,7 @@
 ** project  : CGRA-X-HEEP                                                  **
 ** filename : single_instr.h                                                   **
 ** version  : 1                                                            **
-** date     : 2024-04-13                                                    **
+** date     : 2024-04-24                                                    **
 **                                                                         **
 *****************************************************************************
 **                                                                         **
@@ -21,7 +21,7 @@
 
 /**
 * @file   single_instr.h
-* @date   2024-04-13
+* @date   2024-04-24
 * @brief  A description of the kernel...
 *
 */
