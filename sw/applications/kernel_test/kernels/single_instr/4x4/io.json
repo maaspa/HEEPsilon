@@ -1,8 +1,8 @@
 {
     "function_name": "single_instr",
     "inputs": [        {
-        "name": "in_ptr",
-        "depth": 1,
+        "name": "testVect",
+        "depth": 30,
         "type": "uint32_t"
     }],
     "outputs": [
