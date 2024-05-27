@@ -4,7 +4,7 @@
 **                            *******************                          **
 **                                                                         **
 ** project  : CGRA-X-HEEP                                                  **
-** filename : mem_instr.h                                                   **
+** filename : single_instr.h                                                   **
 ** version  : 1                                                            **
 ** date     : 2024-05-22                                                    **
 **                                                                         **
@@ -20,14 +20,14 @@
 /***************************************************************************/
 
 /**
-* @file   mem_instr.h
+* @file   single_instr.h
 * @date   2024-05-22
 * @brief  A description of the kernel...
 *
 */
 
-#ifndef _MEM_INSTR_H_
-#define _MEM_INSTR_H_
+#ifndef _SINGLE_INSTR_H_
+#define _SINGLE_INSTR_H_
 
 /****************************************************************************/
 /**                                                                        **/
@@ -43,9 +43,9 @@
 /**                                                                        **/
 /****************************************************************************/
 
-extern kcom_kernel_t mem__kernel;
+extern kcom_kernel_t sing_kernel;
 
-#endif // _MEM_INSTR_H_
+#endif // _SINGLE_INSTR_H_
 /****************************************************************************/
 /**                                                                        **/
 /**                                EOF                                     **/

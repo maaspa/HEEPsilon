@@ -4,9 +4,9 @@
 **                            *******************                          **
 **                                                                         **
 ** project  : CGRA-X-HEEP                                                  **
-** filename : single_instr.h                                                   **
+** filename : nop_instr.h                                                   **
 ** version  : 1                                                            **
-** date     : 2024-04-25                                                    **
+** date     : 2024-05-18                                                    **
 **                                                                         **
 *****************************************************************************
 **                                                                         **
@@ -20,14 +20,14 @@
 /***************************************************************************/
 
 /**
-* @file   single_instr.h
-* @date   2024-04-25
+* @file   nop_instr.h
+* @date   2024-05-18
 * @brief  A description of the kernel...
 *
 */
 
-#ifndef _SINGLE_INSTR_H_
-#define _SINGLE_INSTR_H_
+#ifndef _NOP_INSTR_H_
+#define _NOP_INSTR_H_
 
 /****************************************************************************/
 /**                                                                        **/
@@ -43,9 +43,9 @@
 /**                                                                        **/
 /****************************************************************************/
 
-extern kcom_kernel_t sing_kernel;
+extern kcom_kernel_t nop_kernel;
 
-#endif // _SINGLE_INSTR_H_
+#endif // _NOP_INSTR_H_
 /****************************************************************************/
 /**                                                                        **/
 /**                                EOF                                     **/

@@ -44,9 +44,10 @@
 #include "kernels/sha/sha.h"
 #include "kernels/strsearch/strsearch.h"
 #include "kernels/sqrt/sqrt.h"
-// #include "single_instr.h"
+#include "kernels/single_instr/single_instr.h"
 #include "kernels/mem_instr/mem_instr.h"
 #include "kernels/all_instr/all_instr.h"
+#include "kernels/nop_instr/nop_instr.h"
 
 /****************************************************************************/
 /**                                                                        **/
@@ -79,16 +80,17 @@
 /****************************************************************************/
 
 static kcom_kernel_t *kernels[] = {
-        // &conv_kernel,
+        //&conv_kernel,
         // &reve_kernel,
         // &bitc_kernel,
-        // &sqrt_kernel,
-        // &gsm_kernel,
+        //&sqrt_kernel,
+        //&gsm_kernel,
         //&strs_kernel,
+        //&nop_kernel,
         //&sing_kernel,
-        &all__kernel,
+        //&all__kernel,
         &mem__kernel,
-        // &sha_kernel,
+        //&sha_kernel,
         // &sha2_kernel,
         // Add all other kernels here
     };
