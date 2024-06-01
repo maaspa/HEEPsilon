@@ -4,9 +4,9 @@
 **                            *******************                          **
 **                                                                         **
 ** project  : CGRA-X-HEEP                                                  **
-** filename : single_instr.h                                                   **
+** filename : lwd_instr.h                                                   **
 ** version  : 1                                                            **
-** date     : 2024-05-31                                                    **
+** date     : 2024-05-22                                                    **
 **                                                                         **
 *****************************************************************************
 **                                                                         **
@@ -20,14 +20,14 @@
 /***************************************************************************/
 
 /**
-* @file   single_instr.h
-* @date   2024-05-31
+* @file   lwd_instr.h
+* @date   2024-05-22
 * @brief  A description of the kernel...
 *
 */
 
-#ifndef _SINGLE_INSTR_H_
-#define _SINGLE_INSTR_H_
+#ifndef _LWD_INSTR_H_
+#define _LWD_INSTR_H_
 
 /****************************************************************************/
 /**                                                                        **/
@@ -43,9 +43,9 @@
 /**                                                                        **/
 /****************************************************************************/
 
-extern kcom_kernel_t sing_kernel;
+extern kcom_kernel_t lwd__kernel;
 
-#endif // _SINGLE_INSTR_H_
+#endif // _LWD_INSTR_H_
 /****************************************************************************/
 /**                                                                        **/
 /**                                EOF                                     **/

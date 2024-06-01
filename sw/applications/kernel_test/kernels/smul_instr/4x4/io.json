@@ -1,5 +1,5 @@
 {
-    "function_name": "all_instr",
+    "function_name": "smul_instr",
     "inputs": [        {
         "name": "testVect",
         "depth": 30,

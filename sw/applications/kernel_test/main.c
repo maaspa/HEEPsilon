@@ -36,19 +36,23 @@
 /****************************************************************************/
 
 //Include kernels!
-#include "kernels/conv/conv.h"
-#include "kernels/bitcount/bitcount.h"
-#include "kernels/reversebits/reversebits.h"
-#include "kernels/gsm/gsm.h"
-#include "kernels/sha2/sha2.h"
-#include "kernels/sha/sha.h"
-#include "kernels/strsearch/strsearch.h"
-#include "kernels/sqrt/sqrt.h"
-#include "kernels/single_instr/single_instr.h"
-#include "kernels/mem_instr/mem_instr.h"
-#include "kernels/all_instr/all_instr.h"
-#include "kernels/nop_instr/nop_instr.h"
+// #include "kernels/conv/conv.h"
+// #include "kernels/bitcount/bitcount.h"
+// #include "kernels/reversebits/reversebits.h"
+// #include "kernels/gsm/gsm.h"
+// #include "kernels/sha2/sha2.h"
+// #include "kernels/sha/sha.h"
+// #include "kernels/strsearch/strsearch.h"
+// #include "kernels/sqrt/sqrt.h"
+// #include "kernels/single_instr/single_instr.h"
+// #include "kernels/mem_instr/mem_instr.h"
+// #include "kernels/nop_instr/nop_instr.h"
 
+#include "kernels/smul_instr/smul_instr.h"
+#include "kernels/fxpmul_instr/fxpmul_instr.h"
+#include "kernels/lwd_instr/lwd_instr.h"
+#include "kernels/mem_instr/mem_instr.h"
+#include "kernels/beq_instr/beq_instr.h"
 /****************************************************************************/
 /**                                                                        **/
 /*                        DEFINITIONS AND MACROS                            */
@@ -90,6 +94,10 @@ static kcom_kernel_t *kernels[] = {
         //&sing_kernel,
         //&all__kernel,
         &mem__kernel,
+        &fxpmul_kernel,
+        &smul_kernel,
+        &lwd__kernel,
+        &beq__kernel,
         //&sha_kernel,
         // &sha2_kernel,
         // Add all other kernels here

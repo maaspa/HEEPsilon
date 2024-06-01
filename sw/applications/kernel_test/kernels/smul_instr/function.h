@@ -3,7 +3,7 @@
 
 #include <stdio.h>
 
-int all_instr(){
+int smul_instr(){
       uint32_t test = 0;
       uint32_t reg = 7;
     for (int i = 0; i < 32 - 1; ++i)

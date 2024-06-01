@@ -4,7 +4,7 @@
 **                            *******************                          **
 **                                                                         **
 ** project  : CGRA-X-HEEP                                                  **
-** filename : all_instr.h                                                   **
+** filename : fxpmul_instr.h                                                   **
 ** version  : 1                                                            **
 ** date     : 2024-05-22                                                    **
 **                                                                         **
@@ -20,14 +20,14 @@
 /***************************************************************************/
 
 /**
-* @file   all_instr.h
+* @file   fxpmul_instr.h
 * @date   2024-05-22
 * @brief  A description of the kernel...
 *
 */
 
-#ifndef _ALL_INSTR_H_
-#define _ALL_INSTR_H_
+#ifndef _FXPMUL_INSTR_H_
+#define _FXPMUL_INSTR_H_
 
 /****************************************************************************/
 /**                                                                        **/
@@ -43,9 +43,9 @@
 /**                                                                        **/
 /****************************************************************************/
 
-extern kcom_kernel_t all__kernel;
+extern kcom_kernel_t fxpmul_kernel;
 
-#endif // _ALL_INSTR_H_
+#endif // _FXPMUL_INSTR_H_
 /****************************************************************************/
 /**                                                                        **/
 /**                                EOF                                     **/
